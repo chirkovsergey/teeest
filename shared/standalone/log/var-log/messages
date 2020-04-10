@@ -1,0 +1,2 @@
+Apr 10 10:29:17 schirkov-app rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="2114" x-info="https://www.rsyslog.com"] start
+Apr 10 11:04:03 schirkov-app rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="51" x-info="https://www.rsyslog.com"] start

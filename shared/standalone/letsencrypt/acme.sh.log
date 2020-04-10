@@ -1,0 +1,333 @@
+[Fri 10 Apr 2020 10:28:08 AM UTC] Running cmd: install
+[Fri 10 Apr 2020 10:28:08 AM UTC] Lets find script dir.
+[Fri 10 Apr 2020 10:28:08 AM UTC] _SCRIPT_='./acme.sh'
+[Fri 10 Apr 2020 10:28:08 AM UTC] _script='/root/acme.sh/acme.sh'
+[Fri 10 Apr 2020 10:28:08 AM UTC] _script_home='/root/acme.sh'
+[Fri 10 Apr 2020 10:28:08 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:28:08 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:28:08 AM UTC] Installing to /shared/letsencrypt
+[Fri 10 Apr 2020 10:28:08 AM UTC] Installed to /shared/letsencrypt/acme.sh
+[Fri 10 Apr 2020 10:28:08 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:28:08 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:28:08 AM UTC] Using sed  -i
+[Fri 10 Apr 2020 10:28:08 AM UTC] Found profile: /root/.profile
+[Fri 10 Apr 2020 10:28:08 AM UTC] Installing alias to '/root/.profile'
+[Fri 10 Apr 2020 10:28:08 AM UTC] OK, Close and reopen your terminal to start using acme.sh
+[Fri 10 Apr 2020 10:28:08 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:28:08 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:28:08 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:28:08 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:28:08 AM UTC] Installing cron job
+[Fri 10 Apr 2020 10:28:08 AM UTC] Good, bash is found, so change the shebang to use bash as preferred.
+[Fri 10 Apr 2020 10:28:09 AM UTC] OK
+[Fri 10 Apr 2020 10:28:09 AM UTC] Running cmd: upgrade
+[Fri 10 Apr 2020 10:28:09 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:28:09 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:28:09 AM UTC] Installing from online archive.
+[Fri 10 Apr 2020 10:28:09 AM UTC] Downloading https://github.com/Neilpang/acme.sh/archive/master.tar.gz
+[Fri 10 Apr 2020 10:28:09 AM UTC] GET
+[Fri 10 Apr 2020 10:28:09 AM UTC] url='https://github.com/Neilpang/acme.sh/archive/master.tar.gz'
+[Fri 10 Apr 2020 10:28:09 AM UTC] timeout=
+[Fri 10 Apr 2020 10:28:09 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:28:10 AM UTC] ret='0'
+[Fri 10 Apr 2020 10:28:10 AM UTC] Extracting master.tar.gz
+[Fri 10 Apr 2020 10:28:10 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:28:10 AM UTC] Skip install cron job
+[Fri 10 Apr 2020 10:28:10 AM UTC] Installing to /shared/letsencrypt
+[Fri 10 Apr 2020 10:28:10 AM UTC] Installed to /shared/letsencrypt/acme.sh
+[Fri 10 Apr 2020 10:28:10 AM UTC] Good, bash is found, so change the shebang to use bash as preferred.
+[Fri 10 Apr 2020 10:28:10 AM UTC] OK
+[Fri 10 Apr 2020 10:28:10 AM UTC] Install success!
+[Fri 10 Apr 2020 10:28:10 AM UTC] Upgrade success!
+[Fri 10 Apr 2020 10:29:03 AM UTC] Running cmd: issue
+[Fri 10 Apr 2020 10:29:03 AM UTC] _main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:03 AM UTC] _alt_domains='no'
+[Fri 10 Apr 2020 10:29:03 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:03 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:03 AM UTC] DOMAIN_PATH='/shared/letsencrypt/student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:03 AM UTC] Using ACME_DIRECTORY: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:03 AM UTC] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:03 AM UTC] GET
+[Fri 10 Apr 2020 10:29:03 AM UTC] url='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:03 AM UTC] timeout=
+[Fri 10 Apr 2020 10:29:03 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:04 AM UTC] ret='0'
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_KEY_CHANGE='https://acme-v02.api.letsencrypt.org/acme/key-change'
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_NEW_AUTHZ
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_NEW_ORDER='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_NEW_ACCOUNT='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_REVOKE_CERT='https://acme-v02.api.letsencrypt.org/acme/revoke-cert'
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_AGREEMENT='https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_NEW_NONCE='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_VERSION='2'
+[Fri 10 Apr 2020 10:29:04 AM UTC] _on_before_issue
+[Fri 10 Apr 2020 10:29:04 AM UTC] _chk_main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:04 AM UTC] _chk_alt_domains
+[Fri 10 Apr 2020 10:29:04 AM UTC] Le_LocalAddress
+[Fri 10 Apr 2020 10:29:04 AM UTC] d='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:04 AM UTC] Check for domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:04 AM UTC] _currentRoot='/var/www/discourse/public'
+[Fri 10 Apr 2020 10:29:04 AM UTC] d
+[Fri 10 Apr 2020 10:29:04 AM UTC] config file is empty, can not read CA_KEY_HASH
+[Fri 10 Apr 2020 10:29:04 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:04 AM UTC] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:04 AM UTC] Use default length 2048
+[Fri 10 Apr 2020 10:29:04 AM UTC] length='2048'
+[Fri 10 Apr 2020 10:29:04 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:04 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:04 AM UTC] Use length 2048
+[Fri 10 Apr 2020 10:29:04 AM UTC] Using RSA: 2048
+[Fri 10 Apr 2020 10:29:04 AM UTC] Create account key ok.
+[Fri 10 Apr 2020 10:29:04 AM UTC] RSA key
+[Fri 10 Apr 2020 10:29:04 AM UTC] Registering account
+[Fri 10 Apr 2020 10:29:04 AM UTC] url='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Fri 10 Apr 2020 10:29:04 AM UTC] payload='{"termsOfServiceAgreed": true}'
+[Fri 10 Apr 2020 10:29:04 AM UTC] HEAD
+[Fri 10 Apr 2020 10:29:04 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:04 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g  -I  '
+[Fri 10 Apr 2020 10:29:05 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:05 AM UTC] POST
+[Fri 10 Apr 2020 10:29:05 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Fri 10 Apr 2020 10:29:05 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:06 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:06 AM UTC] code='201'
+[Fri 10 Apr 2020 10:29:06 AM UTC] Registered
+[Fri 10 Apr 2020 10:29:06 AM UTC] _accUri='https://acme-v02.api.letsencrypt.org/acme/acct/83029253'
+[Fri 10 Apr 2020 10:29:06 AM UTC] Calc CA_KEY_HASH='ZierG5IyEuxioWoKveeQ2wisKOmOLJcCN5pg16w9qsU='
+[Fri 10 Apr 2020 10:29:06 AM UTC] ACCOUNT_THUMBPRINT='cgQFM2iqWFthQzGDh_-MF1rVtxgAM2ecrqxUjyc8NpE'
+[Fri 10 Apr 2020 10:29:06 AM UTC] Read key length:
+[Fri 10 Apr 2020 10:29:06 AM UTC] Creating domain key
+[Fri 10 Apr 2020 10:29:06 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:06 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:06 AM UTC] Use length 4096
+[Fri 10 Apr 2020 10:29:06 AM UTC] Using RSA: 4096
+[Fri 10 Apr 2020 10:29:07 AM UTC] The domain key is here: [1;32m/shared/letsencrypt/student93.devops.rebrain.srwx.net/student93.devops.rebrain.srwx.net.key[0m
+[Fri 10 Apr 2020 10:29:07 AM UTC] _createcsr
+[Fri 10 Apr 2020 10:29:07 AM UTC] Single domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:07 AM UTC] Getting domain auth token for each domain
+[Fri 10 Apr 2020 10:29:07 AM UTC] d
+[Fri 10 Apr 2020 10:29:07 AM UTC] url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:07 AM UTC] payload='{"identifiers": [{"type":"dns","value":"student93.devops.rebrain.srwx.net"}]}'
+[Fri 10 Apr 2020 10:29:07 AM UTC] POST
+[Fri 10 Apr 2020 10:29:07 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:07 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:08 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:08 AM UTC] code='429'
+[Fri 10 Apr 2020 10:29:08 AM UTC] Le_LinkOrder
+[Fri 10 Apr 2020 10:29:08 AM UTC] Le_OrderFinalize
+[Fri 10 Apr 2020 10:29:08 AM UTC] Create new order error. Le_OrderFinalize not found. {
+  "type": "urn:ietf:params:acme:error:rateLimited",
+  "detail": "Error creating new order :: too many certificates already issued for exact set of domains: student93.devops.rebrain.srwx.net: see https://letsencrypt.org/docs/rate-limits/",
+  "status": 429
+}
+[Fri 10 Apr 2020 10:29:08 AM UTC] pid
+[Fri 10 Apr 2020 10:29:08 AM UTC] No need to restore nginx, skip.
+[Fri 10 Apr 2020 10:29:08 AM UTC] _clearupdns
+[Fri 10 Apr 2020 10:29:08 AM UTC] dns_entries
+[Fri 10 Apr 2020 10:29:08 AM UTC] skip dns.
+[Fri 10 Apr 2020 10:29:08 AM UTC] _on_issue_err
+[Fri 10 Apr 2020 10:29:08 AM UTC] Please check log file for more details: /shared/letsencrypt/acme.sh.log
+[Fri 10 Apr 2020 10:29:08 AM UTC] Running cmd: issue
+[Fri 10 Apr 2020 10:29:08 AM UTC] _main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:08 AM UTC] _alt_domains='no'
+[Fri 10 Apr 2020 10:29:08 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:08 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:08 AM UTC] DOMAIN_PATH='/shared/letsencrypt/student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:08 AM UTC] Using ACME_DIRECTORY: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:08 AM UTC] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:08 AM UTC] GET
+[Fri 10 Apr 2020 10:29:08 AM UTC] url='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:08 AM UTC] timeout=
+[Fri 10 Apr 2020 10:29:08 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:09 AM UTC] ret='0'
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_KEY_CHANGE='https://acme-v02.api.letsencrypt.org/acme/key-change'
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_NEW_AUTHZ
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_NEW_ORDER='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_NEW_ACCOUNT='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_REVOKE_CERT='https://acme-v02.api.letsencrypt.org/acme/revoke-cert'
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_AGREEMENT='https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_NEW_NONCE='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:09 AM UTC] ACME_VERSION='2'
+[Fri 10 Apr 2020 10:29:09 AM UTC] Le_NextRenewTime
+[Fri 10 Apr 2020 10:29:09 AM UTC] _on_before_issue
+[Fri 10 Apr 2020 10:29:09 AM UTC] _chk_main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:09 AM UTC] _chk_alt_domains
+[Fri 10 Apr 2020 10:29:09 AM UTC] Le_LocalAddress
+[Fri 10 Apr 2020 10:29:09 AM UTC] d='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:09 AM UTC] Check for domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:09 AM UTC] _currentRoot='/var/www/discourse/public'
+[Fri 10 Apr 2020 10:29:09 AM UTC] d
+[Fri 10 Apr 2020 10:29:09 AM UTC] _saved_account_key_hash is not changed, skip register account.
+[Fri 10 Apr 2020 10:29:09 AM UTC] Read key length:4096
+[Fri 10 Apr 2020 10:29:09 AM UTC] _createcsr
+[Fri 10 Apr 2020 10:29:09 AM UTC] Single domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:09 AM UTC] Getting domain auth token for each domain
+[Fri 10 Apr 2020 10:29:09 AM UTC] d
+[Fri 10 Apr 2020 10:29:09 AM UTC] url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:09 AM UTC] payload='{"identifiers": [{"type":"dns","value":"student93.devops.rebrain.srwx.net"}]}'
+[Fri 10 Apr 2020 10:29:09 AM UTC] RSA key
+[Fri 10 Apr 2020 10:29:09 AM UTC] HEAD
+[Fri 10 Apr 2020 10:29:09 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:09 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g  -I  '
+[Fri 10 Apr 2020 10:29:10 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:10 AM UTC] POST
+[Fri 10 Apr 2020 10:29:10 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:10 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:11 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:11 AM UTC] code='429'
+[Fri 10 Apr 2020 10:29:11 AM UTC] Le_LinkOrder
+[Fri 10 Apr 2020 10:29:11 AM UTC] Le_OrderFinalize
+[Fri 10 Apr 2020 10:29:11 AM UTC] Create new order error. Le_OrderFinalize not found. {
+  "type": "urn:ietf:params:acme:error:rateLimited",
+  "detail": "Error creating new order :: too many certificates already issued for exact set of domains: student93.devops.rebrain.srwx.net: see https://letsencrypt.org/docs/rate-limits/",
+  "status": 429
+}
+[Fri 10 Apr 2020 10:29:11 AM UTC] pid
+[Fri 10 Apr 2020 10:29:11 AM UTC] No need to restore nginx, skip.
+[Fri 10 Apr 2020 10:29:11 AM UTC] _clearupdns
+[Fri 10 Apr 2020 10:29:11 AM UTC] dns_entries
+[Fri 10 Apr 2020 10:29:11 AM UTC] skip dns.
+[Fri 10 Apr 2020 10:29:11 AM UTC] _on_issue_err
+[Fri 10 Apr 2020 10:29:11 AM UTC] Please check log file for more details: /shared/letsencrypt/acme.sh.log
+[Fri 10 Apr 2020 10:29:11 AM UTC] Running cmd: installcert
+[Fri 10 Apr 2020 10:29:11 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:11 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:11 AM UTC] DOMAIN_PATH='/shared/letsencrypt/student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:11 AM UTC] Installing key to:/shared/ssl/student93.devops.rebrain.srwx.net.key
+[Fri 10 Apr 2020 10:29:11 AM UTC] Installing full chain to:/shared/ssl/student93.devops.rebrain.srwx.net.cer
+[Fri 10 Apr 2020 10:29:11 AM UTC] Running cmd: issue
+[Fri 10 Apr 2020 10:29:11 AM UTC] _main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:11 AM UTC] _alt_domains='no'
+[Fri 10 Apr 2020 10:29:11 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:11 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:11 AM UTC] DOMAIN_PATH='/shared/letsencrypt/student93.devops.rebrain.srwx.net_ecc'
+[Fri 10 Apr 2020 10:29:11 AM UTC] Using ACME_DIRECTORY: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:11 AM UTC] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:11 AM UTC] GET
+[Fri 10 Apr 2020 10:29:11 AM UTC] url='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:11 AM UTC] timeout=
+[Fri 10 Apr 2020 10:29:11 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:12 AM UTC] ret='0'
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_KEY_CHANGE='https://acme-v02.api.letsencrypt.org/acme/key-change'
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_NEW_AUTHZ
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_NEW_ORDER='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_NEW_ACCOUNT='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_REVOKE_CERT='https://acme-v02.api.letsencrypt.org/acme/revoke-cert'
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_AGREEMENT='https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_NEW_NONCE='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_VERSION='2'
+[Fri 10 Apr 2020 10:29:12 AM UTC] _on_before_issue
+[Fri 10 Apr 2020 10:29:12 AM UTC] _chk_main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:12 AM UTC] _chk_alt_domains
+[Fri 10 Apr 2020 10:29:12 AM UTC] Le_LocalAddress
+[Fri 10 Apr 2020 10:29:12 AM UTC] d='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:12 AM UTC] Check for domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:12 AM UTC] _currentRoot='/var/www/discourse/public'
+[Fri 10 Apr 2020 10:29:12 AM UTC] d
+[Fri 10 Apr 2020 10:29:12 AM UTC] _saved_account_key_hash is not changed, skip register account.
+[Fri 10 Apr 2020 10:29:12 AM UTC] Read key length:
+[Fri 10 Apr 2020 10:29:12 AM UTC] Creating domain key
+[Fri 10 Apr 2020 10:29:12 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:12 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:12 AM UTC] Use length 256
+[Fri 10 Apr 2020 10:29:12 AM UTC] Using ec name: prime256v1
+[Fri 10 Apr 2020 10:29:12 AM UTC] The domain key is here: [1;32m/shared/letsencrypt/student93.devops.rebrain.srwx.net_ecc/student93.devops.rebrain.srwx.net.key[0m
+[Fri 10 Apr 2020 10:29:12 AM UTC] _createcsr
+[Fri 10 Apr 2020 10:29:12 AM UTC] Single domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:12 AM UTC] Getting domain auth token for each domain
+[Fri 10 Apr 2020 10:29:12 AM UTC] d
+[Fri 10 Apr 2020 10:29:12 AM UTC] url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:12 AM UTC] payload='{"identifiers": [{"type":"dns","value":"student93.devops.rebrain.srwx.net"}]}'
+[Fri 10 Apr 2020 10:29:12 AM UTC] RSA key
+[Fri 10 Apr 2020 10:29:12 AM UTC] HEAD
+[Fri 10 Apr 2020 10:29:12 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:12 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g  -I  '
+[Fri 10 Apr 2020 10:29:13 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:13 AM UTC] POST
+[Fri 10 Apr 2020 10:29:13 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:13 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:14 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:14 AM UTC] code='429'
+[Fri 10 Apr 2020 10:29:14 AM UTC] Le_LinkOrder
+[Fri 10 Apr 2020 10:29:14 AM UTC] Le_OrderFinalize
+[Fri 10 Apr 2020 10:29:14 AM UTC] Create new order error. Le_OrderFinalize not found. {
+  "type": "urn:ietf:params:acme:error:rateLimited",
+  "detail": "Error creating new order :: too many certificates already issued for exact set of domains: student93.devops.rebrain.srwx.net: see https://letsencrypt.org/docs/rate-limits/",
+  "status": 429
+}
+[Fri 10 Apr 2020 10:29:14 AM UTC] pid
+[Fri 10 Apr 2020 10:29:14 AM UTC] No need to restore nginx, skip.
+[Fri 10 Apr 2020 10:29:14 AM UTC] _clearupdns
+[Fri 10 Apr 2020 10:29:14 AM UTC] dns_entries
+[Fri 10 Apr 2020 10:29:14 AM UTC] skip dns.
+[Fri 10 Apr 2020 10:29:14 AM UTC] _on_issue_err
+[Fri 10 Apr 2020 10:29:14 AM UTC] Please check log file for more details: /shared/letsencrypt/acme.sh.log
+[Fri 10 Apr 2020 10:29:14 AM UTC] Running cmd: issue
+[Fri 10 Apr 2020 10:29:14 AM UTC] _main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:14 AM UTC] _alt_domains='no'
+[Fri 10 Apr 2020 10:29:14 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:14 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:14 AM UTC] DOMAIN_PATH='/shared/letsencrypt/student93.devops.rebrain.srwx.net_ecc'
+[Fri 10 Apr 2020 10:29:14 AM UTC] Using ACME_DIRECTORY: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:14 AM UTC] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Fri 10 Apr 2020 10:29:14 AM UTC] GET
+[Fri 10 Apr 2020 10:29:14 AM UTC] url='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:14 AM UTC] timeout=
+[Fri 10 Apr 2020 10:29:14 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:15 AM UTC] ret='0'
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_KEY_CHANGE='https://acme-v02.api.letsencrypt.org/acme/key-change'
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_NEW_AUTHZ
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_NEW_ORDER='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_NEW_ACCOUNT='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_REVOKE_CERT='https://acme-v02.api.letsencrypt.org/acme/revoke-cert'
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_AGREEMENT='https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_NEW_NONCE='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:15 AM UTC] ACME_VERSION='2'
+[Fri 10 Apr 2020 10:29:15 AM UTC] Le_NextRenewTime
+[Fri 10 Apr 2020 10:29:15 AM UTC] _on_before_issue
+[Fri 10 Apr 2020 10:29:15 AM UTC] _chk_main_domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:15 AM UTC] _chk_alt_domains
+[Fri 10 Apr 2020 10:29:15 AM UTC] Le_LocalAddress
+[Fri 10 Apr 2020 10:29:15 AM UTC] d='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:15 AM UTC] Check for domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:15 AM UTC] _currentRoot='/var/www/discourse/public'
+[Fri 10 Apr 2020 10:29:15 AM UTC] d
+[Fri 10 Apr 2020 10:29:15 AM UTC] _saved_account_key_hash is not changed, skip register account.
+[Fri 10 Apr 2020 10:29:15 AM UTC] Read key length:ec-256
+[Fri 10 Apr 2020 10:29:15 AM UTC] _createcsr
+[Fri 10 Apr 2020 10:29:15 AM UTC] Single domain='student93.devops.rebrain.srwx.net'
+[Fri 10 Apr 2020 10:29:15 AM UTC] Getting domain auth token for each domain
+[Fri 10 Apr 2020 10:29:15 AM UTC] d
+[Fri 10 Apr 2020 10:29:15 AM UTC] url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:15 AM UTC] payload='{"identifiers": [{"type":"dns","value":"student93.devops.rebrain.srwx.net"}]}'
+[Fri 10 Apr 2020 10:29:15 AM UTC] RSA key
+[Fri 10 Apr 2020 10:29:15 AM UTC] HEAD
+[Fri 10 Apr 2020 10:29:15 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Fri 10 Apr 2020 10:29:15 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g  -I  '
+[Fri 10 Apr 2020 10:29:16 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:16 AM UTC] POST
+[Fri 10 Apr 2020 10:29:16 AM UTC] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Fri 10 Apr 2020 10:29:16 AM UTC] _CURL='curl -L --silent --dump-header /shared/letsencrypt/http.header  -g '
+[Fri 10 Apr 2020 10:29:17 AM UTC] _ret='0'
+[Fri 10 Apr 2020 10:29:17 AM UTC] code='429'
+[Fri 10 Apr 2020 10:29:17 AM UTC] Le_LinkOrder
+[Fri 10 Apr 2020 10:29:17 AM UTC] Le_OrderFinalize
+[Fri 10 Apr 2020 10:29:17 AM UTC] Create new order error. Le_OrderFinalize not found. {
+  "type": "urn:ietf:params:acme:error:rateLimited",
+  "detail": "Error creating new order :: too many certificates already issued for exact set of domains: student93.devops.rebrain.srwx.net: see https://letsencrypt.org/docs/rate-limits/",
+  "status": 429
+}
+[Fri 10 Apr 2020 10:29:17 AM UTC] pid
+[Fri 10 Apr 2020 10:29:17 AM UTC] No need to restore nginx, skip.
+[Fri 10 Apr 2020 10:29:17 AM UTC] _clearupdns
+[Fri 10 Apr 2020 10:29:17 AM UTC] dns_entries
+[Fri 10 Apr 2020 10:29:17 AM UTC] skip dns.
+[Fri 10 Apr 2020 10:29:17 AM UTC] _on_issue_err
+[Fri 10 Apr 2020 10:29:17 AM UTC] Please check log file for more details: /shared/letsencrypt/acme.sh.log
+[Fri 10 Apr 2020 10:29:17 AM UTC] Running cmd: installcert
+[Fri 10 Apr 2020 10:29:17 AM UTC] Using config home:/shared/letsencrypt
+[Fri 10 Apr 2020 10:29:17 AM UTC] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Fri 10 Apr 2020 10:29:17 AM UTC] DOMAIN_PATH='/shared/letsencrypt/student93.devops.rebrain.srwx.net_ecc'
+[Fri 10 Apr 2020 10:29:17 AM UTC] Installing key to:/shared/ssl/student93.devops.rebrain.srwx.net_ecc.key
+[Fri 10 Apr 2020 10:29:17 AM UTC] Installing full chain to:/shared/ssl/student93.devops.rebrain.srwx.net_ecc.cer

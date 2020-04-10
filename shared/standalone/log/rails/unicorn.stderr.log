@@ -1,0 +1,176 @@
+I, [2020-04-10T10:29:18.795613 #2136]  INFO -- : Refreshing Gem list
+I, [2020-04-10T10:29:28.048598 #2136]  INFO -- : listening on addr=127.0.0.1:3000 fd=9
+I, [2020-04-10T10:29:40.355009 #2136]  INFO -- : master process ready
+I, [2020-04-10T10:29:51.708456 #2253]  INFO -- : worker=0 ready
+I, [2020-04-10T10:29:52.112322 #2261]  INFO -- : worker=1 ready
+I, [2020-04-10T10:41:02.041155 #2136]  INFO -- : reaped #<Process::Status: pid 2253 exit 0> worker=0
+I, [2020-04-10T10:41:02.043869 #2136]  INFO -- : reaped #<Process::Status: pid 2261 exit 0> worker=1
+I, [2020-04-10T10:41:02.044182 #2136]  INFO -- : master complete
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 2 Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) subscribe failed, reconnecting in 1 second. Call stack ["/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:362:in `rescue in establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:343:in `establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:139:in `block in call_loop'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:292:in `with_socket_timeout'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:138:in `call_loop'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/subscribe.rb:43:in `subscription'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/subscribe.rb:12:in `subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:3467:in `_subscription'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2300:in `block in subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'", "/usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2299:in `subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:287:in `global_subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:721:in `global_subscribe_thread'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:669:in `block in new_subscriber_thread'"] 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 2 Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) subscribe failed, reconnecting in 1 second. Call stack ["/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:362:in `rescue in establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:343:in `establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:125:in `call'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:914:in `block in get'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'", "/usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:913:in `get'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:360:in `process_global_backlog'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:271:in `block in global_subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:284:in `global_subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:721:in `global_subscribe_thread'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:669:in `block in new_subscriber_thread'"] 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:362:in `rescue in establish_connection': Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) (Redis::CannotConnectError)
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:343:in `establish_connection'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:196:in `call_pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:164:in `block in call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:162:in `call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2416:in `block in pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'
+	from /usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2411:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:505:in `namespaced_block'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:300:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:104:in `block in flush_stats'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:97:in `block in redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:65:in `block (2 levels) in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `block in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:94:in `redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:103:in `flush_stats'
+/usr/local/lib/ruby/2.6.0/socket.rb:1213:in `__connect_nonblock': Cannot assign requested address - connect(2) for [::1]:6379 (Errno::EADDRNOTAVAIL)
+	from /usr/local/lib/ruby/2.6.0/socket.rb:1213:in `connect_nonblock'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:180:in `connect_addrinfo'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:220:in `block in connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:218:in `each'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:218:in `each_with_index'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:218:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:317:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:349:in `establish_connection'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:196:in `call_pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:164:in `block in call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:162:in `call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2416:in `block in pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'
+	from /usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2411:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:505:in `namespaced_block'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:300:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:104:in `block in flush_stats'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:97:in `block in redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:65:in `block (2 levels) in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `block in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:94:in `redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:103:in `flush_stats'
+I, [2020-04-10T11:04:04.904796 #76]  INFO -- : Refreshing Gem list
+I, [2020-04-10T11:04:14.512078 #76]  INFO -- : listening on addr=127.0.0.1:3000 fd=9
+I, [2020-04-10T11:04:28.563855 #76]  INFO -- : master process ready
+I, [2020-04-10T11:04:38.584365 #169]  INFO -- : worker=0 ready
+I, [2020-04-10T11:04:38.785787 #178]  INFO -- : worker=1 ready
+I, [2020-04-10T11:05:37.274029 #76]  INFO -- : reaped #<Process::Status: pid 169 exit 0> worker=0
+I, [2020-04-10T11:05:37.277022 #76]  INFO -- : reaped #<Process::Status: pid 178 exit 0> worker=1
+I, [2020-04-10T11:05:37.277136 #76]  INFO -- : master complete
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 2 Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) subscribe failed, reconnecting in 1 second. Call stack ["/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:362:in `rescue in establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:343:in `establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:139:in `block in call_loop'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:292:in `with_socket_timeout'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:138:in `call_loop'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/subscribe.rb:43:in `subscription'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/subscribe.rb:12:in `subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:3467:in `_subscription'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2300:in `block in subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'", "/usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2299:in `subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:287:in `global_subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:721:in `global_subscribe_thread'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:669:in `block in new_subscriber_thread'"] 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 3 Job exception: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+ 
+Failed to report error: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) 2 Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) subscribe failed, reconnecting in 1 second. Call stack ["/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:362:in `rescue in establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:343:in `establish_connection'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:125:in `call'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:914:in `block in get'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'", "/usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:913:in `get'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:360:in `process_global_backlog'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:271:in `block in global_subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus/backends/redis.rb:284:in `global_subscribe'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:721:in `global_subscribe_thread'", "/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/message_bus-2.2.4/lib/message_bus.rb:669:in `block in new_subscriber_thread'"] 
+/var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:362:in `rescue in establish_connection': Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL) (Redis::CannotConnectError)
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:343:in `establish_connection'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:196:in `call_pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:164:in `block in call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:162:in `call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2416:in `block in pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'
+	from /usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2411:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:505:in `namespaced_block'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:300:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:104:in `block in flush_stats'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:97:in `block in redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:65:in `block (2 levels) in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `block in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:94:in `redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:103:in `flush_stats'
+/usr/local/lib/ruby/2.6.0/socket.rb:1213:in `__connect_nonblock': Cannot assign requested address - connect(2) for [::1]:6379 (Errno::EADDRNOTAVAIL)
+	from /usr/local/lib/ruby/2.6.0/socket.rb:1213:in `connect_nonblock'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:180:in `connect_addrinfo'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:220:in `block in connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:218:in `each'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:218:in `each_with_index'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:218:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/connection/ruby.rb:317:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:349:in `establish_connection'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:106:in `block in connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:105:in `connect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:381:in `ensure_connected'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:231:in `block in process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:319:in `logging'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:230:in `process'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:196:in `call_pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:164:in `block in call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:306:in `with_reconnect'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis/client.rb:162:in `call_pipeline'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2416:in `block in pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `block in synchronize'
+	from /usr/local/lib/ruby/2.6.0/monitor.rb:235:in `mon_synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:52:in `synchronize'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-4.1.3/lib/redis.rb:2411:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:505:in `namespaced_block'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/redis-namespace-1.7.0/lib/redis/namespace.rb:300:in `pipelined'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:104:in `block in flush_stats'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:97:in `block in redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:65:in `block (2 levels) in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `block in with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `handle_interrupt'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `with'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq.rb:94:in `redis'
+	from /var/www/discourse/vendor/bundle/ruby/2.6.0/gems/sidekiq-6.0.6/lib/sidekiq/launcher.rb:103:in `flush_stats'

@@ -1,0 +1,74 @@
+2109:C 10 Apr 2020 10:29:17.755 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2109:C 10 Apr 2020 10:29:17.759 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=2109, just started
+2109:C 10 Apr 2020 10:29:17.759 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.5 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 2109
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2109:M 10 Apr 2020 10:29:17.778 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2109:M 10 Apr 2020 10:29:17.778 # Server initialized
+2109:M 10 Apr 2020 10:29:17.778 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2109:M 10 Apr 2020 10:29:17.778 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2109:M 10 Apr 2020 10:29:17.783 * DB loaded from disk: 0.005 seconds
+2109:M 10 Apr 2020 10:29:17.783 * Ready to accept connections
+2109:M 10 Apr 2020 10:34:18.021 * 10 changes in 300 seconds. Saving...
+2109:M 10 Apr 2020 10:34:18.026 * Background saving started by pid 2969
+2969:C 10 Apr 2020 10:34:18.051 * DB saved on disk
+2969:C 10 Apr 2020 10:34:18.052 * RDB: 0 MB of memory used by copy-on-write
+2109:M 10 Apr 2020 10:34:18.126 * Background saving terminated with success
+2109:M 10 Apr 2020 10:39:19.081 * 10 changes in 300 seconds. Saving...
+2109:M 10 Apr 2020 10:39:19.082 * Background saving started by pid 3593
+3593:C 10 Apr 2020 10:39:19.089 * DB saved on disk
+3593:C 10 Apr 2020 10:39:19.090 * RDB: 0 MB of memory used by copy-on-write
+2109:M 10 Apr 2020 10:39:19.183 * Background saving terminated with success
+2109:signal-handler (1586515262) Received SIGTERM scheduling shutdown...
+2109:M 10 Apr 2020 10:41:02.395 # User requested shutdown...
+2109:M 10 Apr 2020 10:41:02.395 * Saving the final RDB snapshot before exiting.
+2109:M 10 Apr 2020 10:41:02.402 * DB saved on disk
+2109:M 10 Apr 2020 10:41:02.402 # Redis is now ready to exit, bye bye...
+50:C 10 Apr 2020 11:04:03.883 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+50:C 10 Apr 2020 11:04:03.885 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=50, just started
+50:C 10 Apr 2020 11:04:03.885 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.5 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 50
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+50:M 10 Apr 2020 11:04:03.898 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+50:M 10 Apr 2020 11:04:03.898 # Server initialized
+50:M 10 Apr 2020 11:04:03.898 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+50:M 10 Apr 2020 11:04:03.898 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+50:M 10 Apr 2020 11:04:03.910 * DB loaded from disk: 0.011 seconds
+50:M 10 Apr 2020 11:04:03.910 * Ready to accept connections
+50:signal-handler (1586516737) Received SIGTERM scheduling shutdown...
+50:M 10 Apr 2020 11:05:37.511 # User requested shutdown...
+50:M 10 Apr 2020 11:05:37.511 * Saving the final RDB snapshot before exiting.
+50:M 10 Apr 2020 11:05:37.526 * DB saved on disk
+50:M 10 Apr 2020 11:05:37.526 # Redis is now ready to exit, bye bye...

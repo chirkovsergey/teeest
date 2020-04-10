@@ -1,0 +1,4 @@
+Apr 10 10:35:01 schirkov-app CRON[3065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 10:35:01 schirkov-app CRON[3065]: pam_unix(cron:session): session closed for user root
+Apr 10 11:05:01 schirkov-app CRON[219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 11:05:01 schirkov-app CRON[219]: pam_unix(cron:session): session closed for user root

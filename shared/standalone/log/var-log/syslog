@@ -1,0 +1,10 @@
+Apr 10 10:29:17 schirkov-app rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr 10 10:29:17 schirkov-app rsyslogd: activation of module imklog failed [v8.1901.0 try https://www.rsyslog.com/e/2145 ]
+Apr 10 10:29:17 schirkov-app rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="2114" x-info="https://www.rsyslog.com"] start
+Apr 10 10:34:03 schirkov-app anacron[31]: Job `cron.daily' started
+Apr 10 10:34:03 schirkov-app anacron[2932]: Updated timestamp for job `cron.daily' to 2020-04-10
+Apr 10 10:35:01 schirkov-app CRON[3066]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Apr 10 11:04:03 schirkov-app rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr 10 11:04:03 schirkov-app rsyslogd: activation of module imklog failed [v8.1901.0 try https://www.rsyslog.com/e/2145 ]
+Apr 10 11:04:03 schirkov-app rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="51" x-info="https://www.rsyslog.com"] start
+Apr 10 11:05:01 schirkov-app CRON[220]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)

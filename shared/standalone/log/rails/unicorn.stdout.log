@@ -1,0 +1,14 @@
+Starting up 1 supervised sidekiqs
+Loading Sidekiq in process id 2222
+2020-04-10T10:41:02.407Z pid=2222 tid=ovtzwo4i6 ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T10:41:02.407Z pid=2222 tid=ovtzwoezu ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T10:41:02.408Z pid=2222 tid=ovtzwo4mq ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T10:41:02.408Z pid=2222 tid=ovtzwoasq ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T10:41:02.409Z pid=2222 tid=ovtzwod96 ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+Starting up 1 supervised sidekiqs
+Loading Sidekiq in process id 144
+2020-04-10T11:05:37.530Z pid=144 tid=oua908ox8 ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T11:05:37.531Z pid=144 tid=oua908oh0 ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T11:05:37.532Z pid=144 tid=oua908ot0 ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T11:05:37.532Z pid=144 tid=oua908o9k ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)
+2020-04-10T11:05:37.532Z pid=144 tid=oua908pb4 ERROR: Error fetching job: Error connecting to Redis on localhost:6379 (Errno::EADDRNOTAVAIL)

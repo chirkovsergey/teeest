@@ -1,0 +1,26 @@
+2020-04-10 10:29:17.834 UTC [2112] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-10 10:29:17.835 UTC [2112] LOG:  listening on IPv6 address "::", port 5432
+2020-04-10 10:29:17.836 UTC [2112] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-04-10 10:29:17.894 UTC [2129] LOG:  database system was shut down at 2020-04-10 10:28:11 UTC
+2020-04-10 10:29:17.906 UTC [2112] LOG:  database system is ready to accept connections
+2020-04-10 10:33:38.186 UTC [2876] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-10 10:34:25.184 UTC [2985] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-10 10:36:12.928 UTC [3213] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-10 10:36:51.281 UTC [3291] discourse@discourse LOG:  duration: 307.879 ms  statement: set client_encoding to 'UTF8'
+2020-04-10 10:38:39.930 UTC [3512] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-10 10:38:50.137 UTC [3533] discourse@discourse LOG:  duration: 111.028 ms  statement: set client_encoding to 'UTF8'
+2020-04-10 10:39:49.701 UTC [3533] discourse@discourse LOG:  duration: 480.305 ms  statement: SELECT 1
+2020-04-10 10:40:01.718 UTC [3679] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-10 10:41:02.776 UTC [2112] LOG:  received smart shutdown request
+2020-04-10 10:41:02.790 UTC [2112] LOG:  worker process: logical replication launcher (PID 2135) exited with exit code 1
+2020-04-10 10:41:03.794 UTC [2130] LOG:  shutting down
+2020-04-10 10:41:03.827 UTC [2112] LOG:  database system is shut down
+2020-04-10 11:04:03.985 UTC [46] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-10 11:04:03.985 UTC [46] LOG:  listening on IPv6 address "::", port 5432
+2020-04-10 11:04:03.993 UTC [46] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-04-10 11:04:04.034 UTC [69] LOG:  database system was shut down at 2020-04-10 11:02:48 UTC
+2020-04-10 11:04:04.051 UTC [46] LOG:  database system is ready to accept connections
+2020-04-10 11:05:37.907 UTC [46] LOG:  received smart shutdown request
+2020-04-10 11:05:37.922 UTC [46] LOG:  worker process: logical replication launcher (PID 75) exited with exit code 1
+2020-04-10 11:05:38.607 UTC [70] LOG:  shutting down
+2020-04-10 11:05:38.656 UTC [46] LOG:  database system is shut down
